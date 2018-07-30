@@ -1,2 +1,71 @@
 # IPL.CaseStudy
 The IPL data till 2016 was scrapped and provided to us as case study to work on as group. The IPL data had 21 files to work on and get the solutions for the questions asked.
+
+# Data Sets:
+The 21 files are as follows:
+- Ball_by_Ball.csv
+- Batsman_Scored.csv
+- Bowling_Style.csv
+- City.csv
+- Country.csv
+- Extra_Runs.csv
+- Extra_Type.csv
+- Match.csv
+- Out_Type.csv
+- Outcome.csv
+- Player.csv
+- Player_Match.csv
+- Rolee.csv
+- Season.csv
+- Team.csv
+- Toss_Decision.csv
+- Umpire.csv
+- Venue.csv
+- Wicket_Taken.csv
+- Win_By.csv
+
+Features to look into in the above files:
+- ball_id - Unique Number which Identifies a ball in an over
+- batting_id - Unique Number which identifies the batsman
+- bowler - Unique Number which Identifies the player who is Bowling that particular ball
+- bowling_skill
+- city_id - Unique identification of the city
+- city_name - Name of the city where the match was played
+- country_id - Unique Identification of the country where the match was played
+- country_name - Name of the country where the match was played
+- dob - Date of Birth
+- extra_type_id - Unique identification of types of extra runs that can be conceded.  
+- extra_runs - Runs conceded in that particular type of extra runs category.
+- extra_name - Name of the types of extra runs conceded.
+- innings_no - Unique Number which Identifies an innings in a match
+- match_id - Unique Number Which Identifies a match
+- match_date - Date in which the particular match was played.
+- match_winner
+- man_of_the_match
+- man_of_the_series
+- non_striker - Unique Number which Identifies the player who is Non-striker for that particular ball
+- outcome_type
+- out_id
+- out_name
+- over_id - Unique Number which Identifies an over in an Innings
+- orange_cap
+- purple_cap
+- player_id
+- player_name
+- runs_scored - Number of Runs scored by the batsman
+- role_id
+- season_id
+- striker_batting_position - Unique Number which Identifies the position in which player came into bat
+- striker - Unique Number which Identifies the player who is on strike for that particular ball
+- team_batting - Unique Number which Identifies Batting team in a match
+- team_bowling - Unique Number which Identifies Bowling team in a match
+- team_1 - Team batting first in a match
+- team_2 - Team bowling first in a match
+- toss_winner
+- toss_decide
+- umpire_id
+- umpire_name
+- umpire_country
+- venue_id
+- win_type
+- win_margin
